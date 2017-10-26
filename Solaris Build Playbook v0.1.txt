@@ -1,4 +1,3 @@
-[root@ip-l-02894-f5b Playbooks]# more Playbook_RZ_PostBuild_Solaris11.yml
 ############ Build Playbook for Solaris 11##################
 # following tasks are performed
 # 1. Template - ntp, dns, syslog, snmp, nsswitch, default/login , default/passwd, default/keyserv
@@ -337,4 +336,3 @@
             hour: "0,0"
             job: "/usr/sbin/logadm"
 ################################## END OF Playbook ##########################################
-[root@ip-l-02894-f5b Playbooks]#
